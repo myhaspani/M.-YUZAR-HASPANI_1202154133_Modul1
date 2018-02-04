@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.haspani.myuzarhaspani_1202154133_modul1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Makan Malam"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dengan Milea"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/Makanan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Makanan" />
+
+        <EditText
+            android:id="@+id/Porsi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/eatbus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="29dp"
+                android:layout_marginRight="29dp"
+                android:layout_marginTop="25dp"
+                android:layout_toLeftOf="@+id/abnormal"
+                android:layout_toStartOf="@+id/abnormal"
+                android:background="@color/colorAccent"
+                android:text="EATBUS"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/abnormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/eatbus"
+                android:layout_alignBottom="@+id/eatbus"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="67dp"
+                android:layout_marginRight="67dp"
+                android:background="@color/colorAccent"
+                android:text="ABNORMAL"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
